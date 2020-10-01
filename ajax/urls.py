@@ -5,4 +5,5 @@ urlpatterns = [
     #path('admin/', admin.site.urls),
     path('',views.home,name='home'),
     path('likepost/',views.likepost,name='likepost'),
+    path('likecomment/',views.likecomment,name='likecomment'),
 ]
